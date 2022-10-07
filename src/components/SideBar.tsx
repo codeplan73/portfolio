@@ -8,19 +8,19 @@ const SideBar = () => {
         display:'flex', flexDirection: 'column',gap:'1rem', width: '200px', padding:'1rem 0px'
     }}> 
         <Typography>
-            <Link className='mobileLink' smooth to='#about'>About</Link> 
+            <Link smooth to="#about" className="mobileLink">About</Link> 
         </Typography>
         <Divider/>
         <Typography> 
-            <Link className='mobileLink' smooth to='#skill'>Skill</Link> 
+            <Link smooth to='#skill' className='mobileLink'>Skill</Link> 
         </Typography>
         <Divider/>
         <Typography> 
-            <Link className='mobileLink' smooth to='#project'>Project</Link> 
+            <Link smooth to='#project' className='mobileLink'>Project</Link> 
         </Typography>
         <Divider/>
         <Typography> 
-            <Link className='mobileLink' smooth to='#contact'>Contact</Link>
+            <Link smooth to='#contact' className='mobileLink'>Contact</Link>
         </Typography>
         <Divider/>
     </Box>

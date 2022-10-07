@@ -37,7 +37,10 @@ const About = () => {
             I'm a <span style={{color:'#346a8b'}}>Software Developer</span>
           </Typography>
           <Typography variant='body1'>
-          Diligent software engineer with 3+ years of experience in commercial application and software development. Eager to build innovative and cutting-edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% and ensured 98% on-time project completion. Also identified and dealt with a significant process bottleneck that boosted coding efficiency by 35% when resolved.
+            Creative graphics designer with 5+ years of experience in photoshop, corel draw. Deligent software and application designing with over 1+ year experience.
+            <br/>
+            <br/>
+            Eager to build innovative and cutting-edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% completion. Also identified and dealt with a significant process bottleneck that boosted coding efficiency by 35% when resolved
           </Typography>
 
         </Box>
