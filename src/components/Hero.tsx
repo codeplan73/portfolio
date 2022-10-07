@@ -5,8 +5,8 @@ import {
   Typography,
   Avatar
 } from '@mui/material'
-// import profile from '../assets/ify-pic.jpeg'
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/ify-pic.jpeg'
+// import profile from '../assets/profile.jpeg'
 import { HashLink as Link} from 'react-router-hash-link';
 const Hero = () => {
   return (
