@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  /* background: url(./assets/bg.png) rgba(23, 56, 76, 0.686) no-repeat center;  */
+  
+  background: linear-gradient(to right, rgba(50, 70, 80, 0.7), rgba(60, 56, 109, 0.7)), url(./assets/bg.png) no-repeat center fixed;
+  background-size: cover;
+}  
+
+.hero .hero__btn {
+  background: #346a8b;
+  color:#fff;
+  padding: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* about section */
+.about__profile {
+  height: 200px;
+  padding: 2rem;
+  padding: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* service area */
+.service-icon {
+  color:aliceblue;
+  background: #252c2f;
+  font-size: 35px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* skill section */
+.skill__icons {
+  font-size: 40px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #222527;
+}
+
+.skill__icons:hover {
+  color: #346a8b;
+  background: #fff;
+  transition: 0.3s ease-out;
+}
+
+.contact__icon {
+  font-size: 25px;
+  color: #0e2b3e;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+textarea {
+  width: 100%;
+  height: 70%;
+}
+
+.btn-submit {
+  color:#fff;
+  background: #0e2b3e;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  width: 200px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #0e2b3e;
+  color: #fff;
+}
+
+
+/* Tab */
+@media only screen and (max-width:899px){
+  .mobileLink {
+    text-transform: uppercase;
+    padding-left: 1rem;
+    font-family: 500;
+    font-size: 16px;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width:600px){
+
+  .mobileLink {
+    text-transform: uppercase;
+    padding-left: 1rem;
+    font-family: 500;
+    font-size: 16px;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .hero .hero__btn {
+    padding: 12px;
+    font-weight: 500;
+  }
+}
