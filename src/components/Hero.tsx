@@ -35,7 +35,7 @@ const Hero = () => {
             textAlign:'center'
           }}
         >
-          I'm Emmanuel Omonzebaguan
+          I'm feanyi Joshua Chukwuji
         </Typography>
         <Typography variant='body2' color='white' sx={{textAlign:'center'}}>
           I'm a Passionate <span style={{color:'#346a8b', fontWeight:'600'}}>Software Developer</span>

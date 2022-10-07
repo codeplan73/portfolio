@@ -23,7 +23,7 @@ const About = () => {
           </Typography>
           <hr/>
           <Typography variant='body2'>
-            <strong>Email:</strong> emmizy2015@gmail.com
+            <strong>Email:</strong> Chukwujijoshuaifeanyi@gmail.com
           </Typography>
           <Typography variant='body2'>
             <strong>Language:</strong> English

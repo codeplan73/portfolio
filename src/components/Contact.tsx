@@ -68,7 +68,7 @@ function Contact() {
           <BsFillTelephoneInboundFill className="contact__icon" />
           <Typography variant="h6">Phone</Typography>
           {/* <Typography variant="body1">Lorem ipsum dolor sit amet.</Typography> */}
-          <Typography variant="body2">+2349168189258</Typography>
+          <Typography variant="body2">+2348052728064</Typography>
         </Box>
         <Box
           sx={{
@@ -83,7 +83,7 @@ function Contact() {
           <AiOutlineMail className="contact__icon" />
           <Typography variant="h6">Email</Typography>
           {/* <Typography variant="body1">Lorem ipsum dolor sit amet.</Typography> */}
-          <Typography variant="body2">emmizy2015@gmail.com</Typography>
+          <Typography variant="body2">Chukwujijoshuaifeanyi@gmail.com</Typography>
         </Box>
         <Box
           sx={{
@@ -99,7 +99,7 @@ function Contact() {
           <GoLocation className="contact__icon" />
           <Typography variant="h6">Location</Typography>
           {/* <Typography variant="body1">Lorem ipsum dolor sit amet.</Typography> */}
-          <Typography variant="body2">10 Iye-omon Lane, off Agbonma Street, Ekenhuan Road, Benin City, Edo State, Nigeria</Typography>
+          <Typography variant="body2">No 15 Edosa Street Benin City Edo State</Typography>
           {/* <Typography variant="body2">No 10 Iye-Omon Lane, off Agbonma Street, Ekenhuan Road, Benin City Edo State</Typography> */}
         </Box>
       </Box>
