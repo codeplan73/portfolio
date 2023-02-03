@@ -2,6 +2,7 @@ import React from 'react'
 import api from './../assets/api.jpeg'
 import booking from './../assets/booking.jpeg'
 import ecommerce from './../assets/ecommerce.jpeg'
+import school from './../assets/school.png'
 import youtube from './../assets/youtube-clone.jpeg'
 import {
   Box,
@@ -48,35 +49,38 @@ const Project = () => {
           flexWrap: 'wrap',
         }}
       >
-        <Card sx={{ maxWidth: 300 }}>
+        
+
+
+        <Card sx={{ maxWidth:280 }}>
           <CardActionArea>
             <CardMedia
               component="img"
               height="140"
-              image={ecommerce}
+              image={school}
               alt="green iguana"
             />
             <CardContent>
               <Typography gutterBottom variant="h6" component="div">
-                Ecommerce Web App
+                School Management System
               </Typography>
               <Typography gutterBottom variant="body2" component="div">
                 Stack
               </Typography>
-              <Chip label="React" sx={{ margin:'3px'}} />
-              <Chip label="NodeJs" sx={{ margin:'3px'}} />
-              <Chip label="React-Router" sx={{ margin:'3px'}} />
-              <Chip label="Express" sx={{ margin:'3px'}} />
-              <Chip label="MongoDB" sx={{ margin:'3px'}} />
+              <Chip label="Html" sx={{ margin:'3px'}} />
+              <Chip label="Css" sx={{ margin:'3px'}} />
+              <Chip label="JavaScript" sx={{ margin:'3px'}} />
+              <Chip label="Php/MySQL" sx={{ margin:'3px'}} />
+              <Chip label="Bootstrap" sx={{ margin:'3px'}} />
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <a href="https://react-course-comfy-sloth-store.netlify.app">Live/Demo</a>
+              <a href="https://alamincollege.com/">Live/Demo</a>
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 300 }}>
+        <Card sx={{ maxWidth: 280 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -104,7 +108,7 @@ const Project = () => {
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 300 }}>
+        <Card sx={{ maxWidth: 280 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -131,7 +135,7 @@ const Project = () => {
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 300 }}>
+        <Card sx={{ maxWidth: 280 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -155,6 +159,34 @@ const Project = () => {
           <CardActions>
             <Button size="small" color="primary">
               <a href="https://ecommerce-app-cps.herokuapp.com/">Live/Demo</a>
+            </Button>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth:280 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="140"
+              image={ecommerce}
+              alt="green iguana"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h6" component="div">
+                Ecommerce Web App
+              </Typography>
+              <Typography gutterBottom variant="body2" component="div">
+                Stack
+              </Typography>
+              <Chip label="React" sx={{ margin:'3px'}} />
+              <Chip label="NodeJs" sx={{ margin:'3px'}} />
+              <Chip label="React-Router" sx={{ margin:'3px'}} />
+              <Chip label="Express" sx={{ margin:'3px'}} />
+              <Chip label="MongoDB" sx={{ margin:'3px'}} />
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href="https://react-course-comfy-sloth-store.netlify.app">Live/Demo</a>
             </Button>
           </CardActions>
         </Card>

@@ -11,7 +11,7 @@ const About = () => {
           display: 'flex',
           flexDirection: { lg: 'row', xs: 'column' },
           justifyContent: 'flex-start',
-          alignItems: 'center',
+          alignItems: 'flex-start',
           gap: '1rem',
           padding: '2rem',
           margin:'0 auto'
@@ -23,7 +23,7 @@ const About = () => {
           </Typography>
           <hr/>
           <Typography variant='body2'>
-            <strong>Email:</strong> Chukwujijoshuaifeanyi@gmail.com
+            <strong>Email:</strong> emmizy2015@gmail.com
           </Typography>
           <Typography variant='body2'>
             <strong>Language:</strong> English
@@ -37,10 +37,9 @@ const About = () => {
             I'm a <span style={{color:'#346a8b'}}>Software Developer</span>
           </Typography>
           <Typography variant='body1'>
-            Creative graphics designer with 5+ years of experience in photoshop, corel draw. Deligent software and application designing with over 1+ year experience.
+
+            A highly accomplished and result-oriented Software Developer with years of experience in full Stack development in JavaScript, React and Node.js Hands on experience in HTML, CSS, JavaScript and various front end technologies. Motivated team player knowledgeable in Analysis, Design, Development, Implementation, Testing, and Troubleshooting of web applications. Highly skilled and resourceful software engineer with a record of developing and supporting concurrent software projects and involved in JavaScript platforms and successful solution in software development. 
             <br/>
-            <br/>
-            Eager to build innovative and cutting-edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% completion. Also identified and dealt with a significant process bottleneck that boosted coding efficiency by 35% when resolved
           </Typography>
 
         </Box>
