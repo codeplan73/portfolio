@@ -76,7 +76,7 @@ const Project = () => {
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <a href="https://alamincollege.com/">Live/Demo</a>
+              <a href="#">Live/Demo</a>
             </Button>
           </CardActions>
         </Card>
@@ -104,7 +104,7 @@ const Project = () => {
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <a href="https://linostouch.com">Live/Demo</a>
+              <a href="#">Live/Demo</a>
             </Button>
           </CardActions>
         </Card>
