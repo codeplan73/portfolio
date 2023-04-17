@@ -1,4 +1,3 @@
-import api from './../assets/api.jpeg'
 import booking from './../assets/booking.jpeg'
 import ecommerce from './../assets/ecommerce.jpeg'
 import youtube from './../assets/youtube-clone.jpeg'
@@ -13,8 +12,7 @@ import {
   CardContent,
   CardMedia,
   Typography,
-  Chip,
-  Stack,
+  Chip
 } from '@mui/material'
 import { Link } from 'react-router-dom'
 
@@ -112,7 +110,7 @@ const Project = () => {
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              <a href="#">Live/Demo</a>
+              <Link to="#">Live/Demo</Link>
             </Button>
           </CardActions>
         </Card>
