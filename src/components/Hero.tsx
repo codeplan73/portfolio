@@ -7,6 +7,7 @@ import {
 } from '@mui/material'
 // import profile from '../assets/ify-pic.jpeg'
 import profile from '../assets/ify-pic.jpeg'
+import PDF from './../pdf/IFEANYI_CHUKWUJI_CV_3.pdf';
 import { HashLink as Link} from 'react-router-hash-link';
 const Hero = () => {
   return (
@@ -44,9 +45,9 @@ const Hero = () => {
           <button className="hero__btn">
             <Link smooth to="/#contact">Hire Me</Link>
           </button>
-          <button className="hero__btn">
+          <a href={PDF} target="_blank" className="hero__btn" rel="noreferrer">
             Download CV
-          </button>
+          </a>
         </Box>
       </Box>
     </Paper>
