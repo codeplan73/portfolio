@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AppBar, Box, Toolbar, Typography, IconButton, useMediaQuery, Drawer, Avatar } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import SideBar from './SideBar'
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/my_logo.png'
 import { HashLink as Link} from 'react-router-hash-link';
 
 function Navbar() {

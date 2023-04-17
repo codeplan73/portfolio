@@ -1,4 +1,3 @@
-import React from 'react'
 import { Paper, Box, Typography } from '@mui/material'
 
 const About = () => {
@@ -29,16 +28,16 @@ const About = () => {
             <strong>Language:</strong> English
           </Typography>
           <Typography variant='body2'>
-            <strong>Nationality:</strong> Nigeria
+            <strong>Nationality:</strong> Nigerian
           </Typography>
         </Box>
         <Box sx={{flex:{lg:2.9,xs:1}}}>
           <Typography variant='h5'>
-            I'm a <span style={{color:'#346a8b'}}>Software Developer</span>
+            I'm a <span style={{color:'#346a8b'}}>Graphics/Web Designer</span>
           </Typography>
           <Typography variant='body1'>
 
-            A highly accomplished and result-oriented Software Developer with years of experience in full Stack development in JavaScript, React and Node.js Hands on experience in HTML, CSS, JavaScript and various front end technologies. Motivated team player knowledgeable in Analysis, Design, Development, Implementation, Testing, and Troubleshooting of web applications. Highly skilled and resourceful software engineer with a record of developing and supporting concurrent software projects and involved in JavaScript platforms and successful solution in software development. 
+            Ifeanyi Chukwuji is a talented graphic designer with 5 years of experience in creating impactful visual designs. Proficient in using industry-leading applications such as Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro and Corel draw. Ifeanyi excels in both print and digital media. His diverse portfolio encompasses branding, marketing materials, and web design. With a keen eye for detail and a strong foundation in design principles, Ifeanyi consistently delivers innovative solutions that elevate his clients' brand presence across various industries. 
             <br/>
           </Typography>
 

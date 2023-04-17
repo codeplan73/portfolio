@@ -38,7 +38,7 @@ const Hero = () => {
           I'm Chukwuji joshua ifeanyi
         </Typography>
         <Typography variant='body2' color='white' sx={{textAlign:'center'}}>
-          I'm a Passionate <span style={{color:'#346a8b', fontWeight:'600'}}>Software Developer</span>
+          I'm a Passionate <span style={{color:'#346a8b', fontWeight:'600'}}>Graphics/Web Designer</span>
         </Typography>
         <Box sx={{display:'flex', alignItems:'center', justifyContent:'center', gap:'1rem', marginTop:'1.5rem'}}>
           <button className="hero__btn">

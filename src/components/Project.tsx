@@ -1,9 +1,9 @@
-import React from 'react'
 import api from './../assets/api.jpeg'
 import booking from './../assets/booking.jpeg'
 import ecommerce from './../assets/ecommerce.jpeg'
-import school from './../assets/school.png'
 import youtube from './../assets/youtube-clone.jpeg'
+import graphics1 from '../assets/fiy-log1.jpeg'
+import graphics2 from '../assets/ify-log2.jpeg'
 import {
   Box,
   Card,
@@ -49,37 +49,45 @@ const Project = () => {
           flexWrap: 'wrap',
         }}
       >
-        
 
 
-        <Card sx={{ maxWidth:280 }}>
+
+        <Card sx={{ maxWidth: 280 }}>
           <CardActionArea>
             <CardMedia
               component="img"
-              height="140"
-              image={school}
+              height="310"
+              image={graphics1}
               alt="green iguana"
             />
-            <CardContent>
-              <Typography gutterBottom variant="h6" component="div">
-                School Management System
-              </Typography>
-              <Typography gutterBottom variant="body2" component="div">
-                Stack
-              </Typography>
-              <Chip label="Html" sx={{ margin:'3px'}} />
-              <Chip label="Css" sx={{ margin:'3px'}} />
-              <Chip label="JavaScript" sx={{ margin:'3px'}} />
-              <Chip label="Php/MySQL" sx={{ margin:'3px'}} />
-              <Chip label="Bootstrap" sx={{ margin:'3px'}} />
-            </CardContent>
+             
           </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href="#">Live/Demo</a>
-            </Button>
-          </CardActions>
         </Card>
+        <Card sx={{ maxWidth: 280 }}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              height="310"
+              image={graphics2}
+              alt="green iguana"
+            />
+             
+          </CardActionArea>
+        </Card>
+
+
+      </Box>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'flex-start',
+          alignItems: 'center',
+          gap: '1.5rem',
+          width: '80%',
+          margin: '2rem 0',
+          flexWrap: 'wrap',
+        }}
+      >
         <Card sx={{ maxWidth: 280 }}>
           <CardActionArea>
             <CardMedia
@@ -95,11 +103,11 @@ const Project = () => {
               <Typography gutterBottom variant="body2" component="div">
                 Stack
               </Typography>
-              <Chip label="HTML" sx={{ margin:'3px'}} />
-              <Chip label="CSS" sx={{ margin:'3px'}} />
-              <Chip label="JavaScript" sx={{ margin:'3px'}} />
-              <Chip label="Php/MySQL" sx={{ margin:'3px'}} />
-              <Chip label="BootStrap" sx={{ margin:'3px'}} />
+              <Chip label="HTML" sx={{ margin: '3px' }} />
+              <Chip label="CSS" sx={{ margin: '3px' }} />
+              <Chip label="JavaScript" sx={{ margin: '3px' }} />
+              <Chip label="Php/MySQL" sx={{ margin: '3px' }} />
+              <Chip label="BootStrap" sx={{ margin: '3px' }} />
             </CardContent>
           </CardActionArea>
           <CardActions>
@@ -123,10 +131,10 @@ const Project = () => {
               <Typography gutterBottom variant="body2" component="div">
                 Stack
               </Typography>
-              <Chip label="React" sx={{ margin:'3px'}} />
-              <Chip label="Redux Toolkit" sx={{ margin:'3px'}} />
-              <Chip label="React Router" sx={{ margin:'3px'}} />
-              <Chip label="RapidAPI" sx={{ margin:'3px'}} /> 
+              <Chip label="React" sx={{ margin: '3px' }} />
+              <Chip label="Redux Toolkit" sx={{ margin: '3px' }} />
+              <Chip label="React Router" sx={{ margin: '3px' }} />
+              <Chip label="RapidAPI" sx={{ margin: '3px' }} />
             </CardContent>
           </CardActionArea>
           <CardActions>
@@ -136,33 +144,6 @@ const Project = () => {
           </CardActions>
         </Card>
         <Card sx={{ maxWidth: 280 }}>
-          <CardActionArea>
-            <CardMedia
-              component="img"
-              height="140"
-              image={api}
-              alt="green iguana"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h6" component="div">
-                Ecommerce API
-              </Typography>
-              <Typography gutterBottom variant="body2" component="div">
-                Stack
-              </Typography>
-              <Chip label="Node" sx={{ margin:'3px'}} />
-              <Chip label="ExpressJs" sx={{ margin:'3px'}} />
-              <Chip label="MongoDB" sx={{ margin:'3px'}} />
-              <Chip label="Heroku" sx={{ margin:'3px'}} /> 
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary">
-              <a href="https://ecommerce-app-cps.herokuapp.com/">Live/Demo</a>
-            </Button>
-          </CardActions>
-        </Card>
-        <Card sx={{ maxWidth:280 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -177,11 +158,11 @@ const Project = () => {
               <Typography gutterBottom variant="body2" component="div">
                 Stack
               </Typography>
-              <Chip label="React" sx={{ margin:'3px'}} />
-              <Chip label="NodeJs" sx={{ margin:'3px'}} />
-              <Chip label="React-Router" sx={{ margin:'3px'}} />
-              <Chip label="Express" sx={{ margin:'3px'}} />
-              <Chip label="MongoDB" sx={{ margin:'3px'}} />
+              <Chip label="React" sx={{ margin: '3px' }} />
+              <Chip label="NodeJs" sx={{ margin: '3px' }} />
+              <Chip label="React-Router" sx={{ margin: '3px' }} />
+              <Chip label="Express" sx={{ margin: '3px' }} />
+              <Chip label="MongoDB" sx={{ margin: '3px' }} />
             </CardContent>
           </CardActionArea>
           <CardActions>
@@ -190,7 +171,7 @@ const Project = () => {
             </Button>
           </CardActions>
         </Card>
-         
+
       </Box>
     </Box>
   )
